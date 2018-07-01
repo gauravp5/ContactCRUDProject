@@ -1,7 +1,0 @@
-C:\Users\P10382176\Desktop\Evolent\CRUD\.vs\CRUD\lut\0\b\CRUD.Framework\bin\Debug\CRUD.Framework.dll.config
-C:\Users\P10382176\Desktop\Evolent\CRUD\.vs\CRUD\lut\0\b\CRUD.Framework\bin\Debug\CRUD.Framework.dll
-C:\Users\P10382176\Desktop\Evolent\CRUD\.vs\CRUD\lut\0\b\CRUD.Framework\bin\Debug\CRUD.Framework.pdb
-C:\Users\P10382176\Desktop\Evolent\CRUD\.vs\CRUD\lut\0\i\CRUD.Framework\Debug\CRUD.Framework.csprojResolveAssemblyReference.cache
-C:\Users\P10382176\Desktop\Evolent\CRUD\.vs\CRUD\lut\0\i\CRUD.Framework\Debug\CRUD.Framework.csproj.CoreCompileInputs.cache
-C:\Users\P10382176\Desktop\Evolent\CRUD\.vs\CRUD\lut\0\i\CRUD.Framework\Debug\CRUD.Framework.dll
-C:\Users\P10382176\Desktop\Evolent\CRUD\.vs\CRUD\lut\0\i\CRUD.Framework\Debug\CRUD.Framework.pdb

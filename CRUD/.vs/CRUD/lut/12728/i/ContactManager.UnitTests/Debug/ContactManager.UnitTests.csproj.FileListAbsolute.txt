@@ -1,9 +1,0 @@
-C:\Users\P10382176\Desktop\Evolent\CRUD\.vs\CRUD\lut\0\b\ContactManager.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-C:\Users\P10382176\Desktop\Evolent\CRUD\.vs\CRUD\lut\0\b\ContactManager.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-C:\Users\P10382176\Desktop\Evolent\CRUD\.vs\CRUD\lut\0\b\ContactManager.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-C:\Users\P10382176\Desktop\Evolent\CRUD\.vs\CRUD\lut\0\b\ContactManager.UnitTests\bin\Debug\ContactManager.UnitTests.dll
-C:\Users\P10382176\Desktop\Evolent\CRUD\.vs\CRUD\lut\0\b\ContactManager.UnitTests\bin\Debug\ContactManager.UnitTests.pdb
-C:\Users\P10382176\Desktop\Evolent\CRUD\.vs\CRUD\lut\0\i\ContactManager.UnitTests\Debug\ContactManager.UnitTests.csproj.CoreCompileInputs.cache
-C:\Users\P10382176\Desktop\Evolent\CRUD\.vs\CRUD\lut\0\i\ContactManager.UnitTests\Debug\ContactManager.UnitTests.dll
-C:\Users\P10382176\Desktop\Evolent\CRUD\.vs\CRUD\lut\0\i\ContactManager.UnitTests\Debug\ContactManager.UnitTests.pdb
-C:\Users\P10382176\Desktop\Evolent\CRUD\.vs\CRUD\lut\0\i\ContactManager.UnitTests\Debug\ContactManager.UnitTests.csprojResolveAssemblyReference.cache
