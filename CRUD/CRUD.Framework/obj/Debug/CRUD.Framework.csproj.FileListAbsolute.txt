@@ -1,0 +1,11 @@
+C:\Users\P10382176\Desktop\Evolent\CRUD\CRUD.Framework\bin\Debug\CRUD.Framework.dll.config
+C:\Users\P10382176\Desktop\Evolent\CRUD\CRUD.Framework\bin\Debug\CRUD.Framework.dll
+C:\Users\P10382176\Desktop\Evolent\CRUD\CRUD.Framework\bin\Debug\CRUD.Framework.pdb
+C:\Users\P10382176\Desktop\Evolent\CRUD\CRUD.Framework\bin\Debug\EntityFramework.dll
+C:\Users\P10382176\Desktop\Evolent\CRUD\CRUD.Framework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\P10382176\Desktop\Evolent\CRUD\CRUD.Framework\bin\Debug\EntityFramework.xml
+C:\Users\P10382176\Desktop\Evolent\CRUD\CRUD.Framework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\P10382176\Desktop\Evolent\CRUD\CRUD.Framework\obj\Debug\CRUD.Framework.csprojResolveAssemblyReference.cache
+C:\Users\P10382176\Desktop\Evolent\CRUD\CRUD.Framework\obj\Debug\CRUD.Framework.csproj.CoreCompileInputs.cache
+C:\Users\P10382176\Desktop\Evolent\CRUD\CRUD.Framework\obj\Debug\CRUD.Framework.dll
+C:\Users\P10382176\Desktop\Evolent\CRUD\CRUD.Framework\obj\Debug\CRUD.Framework.pdb
