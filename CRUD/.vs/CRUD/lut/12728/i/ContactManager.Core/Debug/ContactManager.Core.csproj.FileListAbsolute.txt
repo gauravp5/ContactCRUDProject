@@ -1,0 +1,5 @@
+C:\Users\P10382176\Desktop\Evolent\CRUD\.vs\CRUD\lut\0\b\ContactManager.Core\bin\Debug\ContactManager.Core.dll
+C:\Users\P10382176\Desktop\Evolent\CRUD\.vs\CRUD\lut\0\b\ContactManager.Core\bin\Debug\ContactManager.Core.pdb
+C:\Users\P10382176\Desktop\Evolent\CRUD\.vs\CRUD\lut\0\i\ContactManager.Core\Debug\ContactManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\P10382176\Desktop\Evolent\CRUD\.vs\CRUD\lut\0\i\ContactManager.Core\Debug\ContactManager.Core.dll
+C:\Users\P10382176\Desktop\Evolent\CRUD\.vs\CRUD\lut\0\i\ContactManager.Core\Debug\ContactManager.Core.pdb
