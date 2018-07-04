@@ -8,7 +8,7 @@ Prerequsite:
 1. Change the connection string in Web.cofig file of CRUD project to local database.
 2. Change the connection string in app.cofig file of ContactManager project ContactManager.Data folder to local database.
 
-Once you Build the project and run and create a conatact information, the database will be created in SQL server. I have used code-first approach to build the project.
+Once you Build the project and run and create a conatact information, the database(ContactDetails)will be created in SQL server with a table named as (Contacts). I have used code-first approach to build the project.
 
 Design:
  I have used Repository pattern to do CRUD operation on Contact Information.
