@@ -7,7 +7,7 @@
 <h2>Contact Details</h2>
 
 <p>
-    @Html.ActionLink("Create New", "CreateContact")
+    @Html.ActionLink("Create New", "CreateContact",null, new { @class = "btn btn-success" })
 </p>
 <table class="table">
     <tr>
@@ -47,9 +47,9 @@
             @Html.DisplayFor(modelItem => item.Status)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
-            @Html.ActionLink("Deactivate", "Deactivate", new { id=item.ID })
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }, new { @class = "btn btn-success" }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }, new { @class = "btn btn-primary" }) |
+            @Html.ActionLink(Convert.ToString(item.Status), "ActivateDeactivate", new { id = item.ID }, new { @class = "btn btn-danger" })
         </td>
     </tr>
 }

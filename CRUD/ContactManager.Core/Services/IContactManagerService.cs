@@ -13,9 +13,8 @@ namespace ContactManager.Core.Services
         Task<bool> Create(Contact newContact);
         Task<Contact> Get(long? id);
         Task<List<Contact>> GetAll();
-        Task<List<Contact>> GetByPage(int pageNumber, int pageCount);
         Task<bool> Modify(Contact existingContact);
-        Task<bool> Deactivate(long? id);
+        Task<bool> ActiveDeactivate(long? id);
     }
 
     public class ContactManagerService : IContactManagerService
@@ -41,12 +40,15 @@ namespace ContactManager.Core.Services
             return true;
         }
 
-        public async Task<bool> Deactivate(long? id)
+        public async Task<bool> ActiveDeactivate(long? id)
         {
             var contact = Repository.All.FirstOrDefault(x => x.Id == id);
             if (contact == null) //TODO:Throw contactnotfound exception
                 return false;
-            contact.Status = Status.InActive;
+            if (contact.Status == Status.Active)
+                contact.Status = Status.InActive;
+            else
+                contact.Status = Status.Active;
             contact.ObjectState = CRUD.Framework.Repository.ObjectState.Modified;
             Repository.Update(contact);
             return true;
@@ -57,11 +59,6 @@ namespace ContactManager.Core.Services
             return Repository.All.FirstOrDefault(x => x.Id == id);
         }
 
-        public async Task<List<Contact>> GetByPage(int pageNumber, int pageCount)
-        {
-            return Repository.All.Skip(pageCount * pageNumber - 1).Take(pageCount).ToList();
-        }
-
         public async Task<bool> Modify(Contact existingContact)
         {
             existingContact.ModifiedOn = DateTime.Now;
@@ -70,7 +67,7 @@ namespace ContactManager.Core.Services
             return true;
         }
 
-        public async Task<List<Contact>> GetAll()
+        public async virtual Task<List<Contact>> GetAll()
         {
             return Repository.All.ToList();
         }

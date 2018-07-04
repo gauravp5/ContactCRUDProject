@@ -88,17 +88,17 @@ namespace CRUD.Contoller
         }
 
         /// <summary>
-        /// Deactivates the contact status based on ID.
+        /// Set status to active or deactive based on ID.
         /// </summary>
         /// <param name="id"></param>
         /// <returns>ActionResult</returns>
-        public ActionResult Deactivate(long? id)
+        public ActionResult ActivateDeactivate(long? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            var contactDetail = ContactManagerService.Deactivate(id);
+            var contactDetail = ContactManagerService.ActiveDeactivate(id);
             return RedirectToAction("Index");
         }
 
@@ -115,7 +115,7 @@ namespace CRUD.Contoller
             }
             var contactDetail = await ContactManagerService.Get(id);
             var records = new ContactViewModel();
-            
+
             if (contactDetail != null)
             {
                 records.ID = contactDetail.Id;
